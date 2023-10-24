@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    /*background-image:  -webkit-linear-gradient(right, #01d72f, #03cddf);*/
+    background-color: #001d42;
+    color: #4ed5fa;
+}
+.container {
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    border: #00e1ff 2px solid;
+    box-shadow: 2px 5px 10px #4ed5fa;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: left;
+}
+#tarea{
+    border-radius: 5px;
+    background-color: #050505;
+    border: #00e1ff 2px solid;
+    margin-left: 5px;
+    color: #00ddff;
+    width: 200px;
+    height: 30px;
+}
+#tarea:hover {
+    box-shadow: 2px 2px 10px #4ed5fa;
+}
+
+#add {
+    background-image:  -webkit-linear-gradient(right, #656565, #f9f9f9);
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+#add:hover{
+    background-image:  -webkit-linear-gradient(right, #00651f, #00ff40);
+    box-shadow: 2px 2px 10px #00f86f;
+}
+
+#delete {
+    background-image:  -webkit-linear-gradient(right, #656565, #f9f9f9);
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+#delete:hover{
+    background-image:  -webkit-linear-gradient(right, #891c04, #ff0000);
+    box-shadow: 2px 2px 10px #f83600;
+}
